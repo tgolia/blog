@@ -1,0 +1,5 @@
+todo.txt
+
+-make a controller that renders a view that shows the first artist's name
+
+-make a html form (using erb templates or not) that posts to a post route in the controller and write the data to the data base

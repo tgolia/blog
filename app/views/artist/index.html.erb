@@ -1,0 +1,14 @@
+<h1><%= @artist.name %></h1>
+
+<img src=<%= @artist.source_image %> alt=""> <!-- Artist Picture -->
+
+<h3><%= @artist.city %>, <%= @artist.state %></h3>
+
+<p>
+<%= @artist.genres.to_a.join(', ').titleize %>
+</p>
+
+
+
+
+<h1><%= @name %></h1>

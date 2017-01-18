@@ -5,6 +5,17 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#### BEGIN GIGTOWN STUFF ####
+
+# gigtown gem
+source 'https://hPM98zZgjzVLAgHryufn@gem.fury.io/gigtown/' do
+  gem 'gigtown'
+end
+
+# add gem to find .env file
+gem 'dotenv-rails'\
+
+#### END GIGTOWN STUFF ####
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
